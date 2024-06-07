@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logolog"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.New"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".two_hand"
+            android:exported="false" />
+        <activity
+            android:name=".left_hand"
+            android:exported="false" />
+        <activity
+            android:name=".right_hand"
+            android:exported="false" />
+        <activity
+            android:name=".gl"
+            android:exported="false" />
+        <activity
+            android:name=".Gloves"
+            android:exported="false" />
+
+        <activity
+            android:name=".z"
+            android:exported="false" />
+        <activity
+            android:name=".y"
+            android:exported="false" />
+        <activity
+            android:name=".x"
+            android:exported="false" />
+        <activity
+            android:name=".w"
+            android:exported="false" />
+        <activity
+            android:name=".v"
+            android:exported="false" />
+        <activity
+            android:name=".u"
+            android:exported="false" />
+        <activity
+            android:name=".t"
+            android:exported="false" />
+        <activity
+            android:name=".s"
+            android:exported="false" />
+        <activity
+            android:name=".r"
+            android:exported="false" />
+        <activity
+            android:name=".q"
+            android:exported="false" />
+        <activity
+            android:name=".p"
+            android:exported="false" />
+        <activity
+            android:name=".o"
+            android:exported="false" />
+        <activity
+            android:name=".n"
+            android:exported="false" />
+        <activity
+            android:name=".m"
+            android:exported="false" />
+        <activity
+            android:name=".l"
+            android:exported="false" />
+        <activity
+            android:name=".k"
+            android:exported="false" />
+        <activity
+            android:name=".j"
+            android:exported="false" />
+        <activity
+            android:name=".i"
+            android:exported="false" />
+        <activity
+            android:name=".h"
+            android:exported="false" />
+        <activity
+            android:name=".g"
+            android:exported="false" />
+        <activity
+            android:name=".f"
+            android:exported="false" />
+        <activity
+            android:name=".e"
+            android:exported="false" />
+        <activity
+            android:name=".d"
+            android:exported="false" />
+        <activity
+            android:name=".c"
+            android:exported="false" />
+        <activity
+            android:name=".a"
+            android:exported="false" />
+        <activity
+            android:name=".b"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".LearnSign"
+            android:exported="false" />
+        <activity
+            android:name=".TextToSign"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".TestFirebase"
+            android:exported="false" />
+        <activity
+            android:name=".SingIn"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".GetUserInfo"
+            android:exported="false" />
+        <activity
+            android:name=".FirstScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:background="@color/black"
+android:layout_height="match_parent"
+tools:context=".UserProfile">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    app:cardCornerRadius="28dp"
+    android:layout_marginBottom="-20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="33dp"
+        tools:ignore="UselessLeaf">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fabProf"
+            android:clickable="true"
+            app:backgroundTint="@color/white"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/arrow_back_white"
+            android:importantForAccessibility="no"
+            android:focusable="true" />
+
+        <!--            <View-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="20dp"/>-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="228dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.111"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/FN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/first_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/LN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/last_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:hint="Age"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/Bio"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="30dp"-->
+        <!--                android:layout_marginTop="20dp"-->
+        <!--                android:layout_marginRight="30dp"-->
+        <!--                android:hint="Bio"-->
+        <!--                android:importantForAutofill="no"-->
+        <!--                android:inputType="text"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/circleImageView"-->
+        <!--                tools:ignore="TextFields,TouchTargetSizeCheck"-->
+        <!--                tools:layout_editor_absoluteX="0dp" />-->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/saveInfoButton"
+            android:text="@string/save"
+            android:textSize="25sp"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="30dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/BtnGetUserInfo"
+            android:text="@string/show"
+            android:drawableStart="@drawable/arrow_back_white"
+            android:textSize="25sp"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="30dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/uspo" />
+
+
+</RelativeLayout>

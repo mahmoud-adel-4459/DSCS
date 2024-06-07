@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DSCS</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login_your_information">please login your information</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember?</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="login">Login</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="or_login_with_phone">Or_login_with Phone</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="please_signup_your_information">please_SignUp_your_information</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_sign_up_your_information">please sign up your information</string>
+    <string name="do_have_an_account_sign_in">do have an account? sign in</string>
+    <string name="text_to_sign">Text to Sign</string>
+    <string name="voice_to_sign">Voice to Sign</string>
+    <string name="alphabetic">Alphabetic</string>
+    <string name="logout">Logout</string>
+    <string name="resetPassword">ResetPassword</string>
+    <string name="provide_your_email_for_which_you_want_to_reset_your_password">Provide your email for which you want to reset your password</string>
+    <string name="reset_password">reset Password</string>
+    <string name="Reset_password">Reset_password</string>
+    <string name="required">Required</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="bio">Bio</string>
+    <string name="save_information">Save Information</string>
+    <string name="back">Back</string>
+    <string name="show_user_info">Show User Info</string>
+    <string name="save">save</string>
+    <string name="show_info">show info</string>
+    <string name="default_web_client_id">759298847331-bvdsft8jlnrq2ps91mornlrkrksv3fqc.apps.googleusercontent.com</string>
+    <string name="show">show</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+</resources>
